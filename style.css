@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-header{
+.header{
    
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(images/Banner\ Image.png);
     background-position: center bottom;
@@ -11,21 +11,18 @@ header{
     background-size: cover;
     max-width: 1440px;
     width: 75%;
-    margin: 120px  auto; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 126px 129px;
     height: 580px;  
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
 }
 
-.header-text {
-   height: 100%;
-   text-align: center;
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-     
-}
 .header-text-1{
     color: #FFF;
     text-align: center;
@@ -75,3 +72,50 @@ header{
 .banner1-img{
     margin-bottom: 120px;
 }
+.welcome-banner{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(images/Vector.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    max-width: 1440px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 126px 126px;
+    height: 580px;  
+    border-radius: 12px;
+    margin-bottom: 120px;
+}
+ .welcome-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    width: 640px;
+    margin-bottom: 24px;
+ }
+ .welcome-content{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 700px;
+    margin-bottom: 48px;
+ }
+ .welcome-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border:2px solid #FFF;
+    background: none;
+    cursor: pointer;
+    
+ }
+ .welcome-btn:hover{
+    background: #F15B22;
+    border: none;
+ }
