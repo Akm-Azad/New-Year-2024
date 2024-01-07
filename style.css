@@ -332,3 +332,62 @@
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
+#subscribe-section{
+    background-color: rgba(214, 96, 96, 0.05);
+    max-width: 1600px;
+    width: 75%;
+    margin:0 auto ; 
+    padding: 126px 126px;
+    height:650px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+#subscribe-section img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px; 
+}
+#subscribe-section h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+#subscribe-section p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+
+}
+.subdcribe-input .email{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    padding-left:15px ;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subdcribe-input .btn{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -210px;
+
+}
