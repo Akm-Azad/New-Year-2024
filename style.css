@@ -475,6 +475,8 @@ position:absolute;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 8px;
+    margin-right: 80px;
+
 }
 .ftp-2 p{
     color: #FFF;
@@ -503,6 +505,7 @@ position:absolute;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 8px;
+    margin-right: 80px;
 }
 /* ......End footer section style.....  */
 
