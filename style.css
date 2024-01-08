@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* ........start  header style from here.......... */
 .header{
    
     background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(images/Banner\ Image.png);
@@ -38,6 +39,8 @@
     font-weight: 900;
     width: 632px;
 }
+/* ........End header style .......... */
+ /* ....start  top banner of main section style.....  */
 .banner1-section{
     height: 100%;
     text-align: center;
@@ -73,6 +76,8 @@
 .banner1-img{
     margin-bottom: 120px;
 }
+/* ....End top banner of main section style.....  */
+/* .........start welcome banner section style  ........*/
 .welcome-banner{
     background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(images/Vector.png);
     background-position: center bottom;
@@ -121,6 +126,8 @@
     background: #ef8d04;
     border: none;
  }
+ /* .........End welcome banner section style  ........*/
+ /* ..........start address banner section style....  */
  .adress-section{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     background-position: center bottom;
@@ -179,8 +186,10 @@
     background: none;
     color: #070211;
  }
+ /* .........End address banner section style....  */
+ /* .......start  offer section style .....  */
  #offer-section{
-    background-color: #a0fa23;
+    background-color: #FFF;
     width: 1680px;
     margin: 0  auto ;
     padding: 126px 126px;
@@ -196,9 +205,6 @@
  .offer-img{
     border-radius: 463px;
     border: 15px solid #F00;
-    
-    
-
  } 
 .offer-img img{
   width: 365px;
@@ -248,17 +254,15 @@
     margin-bottom: 43px;
      
 }
+
+ /* .......End offer section style .....  */
+
+ /* ....start functional section style ......  */
 #functional-section{
-    background-color: #f5cc93;
-    max-width: 1600px;
+    max-width: 1440px;
     width: 75%;
     margin:0 auto ; 
-    padding: 126px 126px;
-    height:1000px;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height:960px;  
     margin-bottom: 120px;
 
 }
@@ -273,7 +277,6 @@
 }
 .functional-item{
     text-align: center;
-    /* padding-bottom: 110px; */
 }
 .functional-title2{
     color:#070211;
@@ -281,16 +284,53 @@
     font-weight: 900;
     margin-bottom: 28px;
 }
-.functional-conten{
+.functional-content{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 500; 
+    width: 1068px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.function-img{
+    display: flex;
+    position: absolute;
     
+}
+ 
+.F-img-1{
+position:absolute;
+    
+}
+.F-img-1:hover{
+    transform: scale(1.2, 1.2);
+}
+.F-img-2{
+    position: absolute;
+    left:720px;
+    top: 80px;
+}
+.F-img-2:hover{
+    transform: rotate(37deg);
+}
+.F-img-3{
+    position: relative;
+    right: -891px;
+    bottom: -5px;
 
 }
-#fortfolio-section{
-    background-color: #f5cc93;
+.F-img-4{
+    position: absolute;
+    top: 430px;
+    }
+
+/* ...........End  functional section style ......  */
+
+/* .....start portfolio section style......  */
+#portfolio-section{
+    background-color: #FFF;
     max-width: 1600px;
     width: 85%; 
     margin: 0 auto;
@@ -299,7 +339,7 @@
     padding: 120px 120px;
 }
 .portfolio-content h3{
-    color: rgb(7, 30, 179);
+    color: rgb(254, 135, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
@@ -332,6 +372,9 @@
     transform: scale(1.5, 1.5);
     cursor: pointer;
 }
+/* .....End portfolio section style......  */
+
+/* ...........start subdcription section style ...*/
 #subscribe-section{
     background-color: rgba(214, 96, 96, 0.05);
     max-width: 1600px;
@@ -406,6 +449,8 @@
     color: #070211;
     cursor:pointer ;
 }
+/* ..........End subdcription section style ...*/
+/* ......start footer section style.....  */
 #footer{
     background: #070211;
     width: auto;
@@ -459,3 +504,10 @@
     font-weight: 500;
     margin-bottom: 8px;
 }
+/* ......End footer section style.....  */
+
+
+                /* >>>>>END<<<<<<  */
+
+                      /* Akm AzaD
+                      Nanjing, China  */
